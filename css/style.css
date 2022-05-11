@@ -303,3 +303,43 @@ footer p:nth-child(2){
 	bottom: 35px;
 	font-size: 14px; 
 }
+
+
+:root {
+	--primary: #18db86;
+	--secondary: white;
+	--secondary-light: rgb(173, 173, 173);
+	--dark1: #222222;
+	--dark2: #050505;
+}
+
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--primary: #18db86;
+	--secondary: white;
+	--secondary-light: rgb(173, 173, 173);
+	--dark1: #222222;
+	--dark2: #050505;
+}
+
+
+header {
+	background-color: var(--dark2);
+	position: sticky;
+	top: 0;
+	z-index: 30;
+	padding: 5px 0;
+}
+
+body {
+	font-size: 18px;
+	font-family: 'Signika', sans-serif;
+	color: var(--secondary);
+
+}
